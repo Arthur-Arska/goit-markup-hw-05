@@ -635,7 +635,7 @@ a {
   background-color: #ffffff;
 }
 
-.close-button-icon {
+.close-button {
   width: 30px;
   height: 30px;
   background-color: #ffffff;
@@ -646,6 +646,16 @@ a {
   position: absolute;
   top: 8px;
   right: 8px;
+
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.close-button-icon {
+  width: 18px;
+  height: 18px;
 }
 
 .is-hidden {
